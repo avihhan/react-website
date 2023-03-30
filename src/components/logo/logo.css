@@ -1,0 +1,28 @@
+.image-container {
+    position: absolute;
+    top: 0px;
+    left: 5px;
+
+  }
+  
+  .img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75px;
+    height: auto;
+  }
+  
+  .img-hover {
+    display: none;
+    width: 75px;
+    height: auto;
+  }
+  
+  .image-container:hover .img {
+    display: none;
+  }
+  
+  .image-container:hover .img-hover {
+    display: block;
+  }

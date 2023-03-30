@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: transparent;
+    box-shadow: 0 2px 5px rgba(0,0,0,.1);
+    padding: 20px;
+    backdrop-filter: blur(1px); /* Apply a blur to the background */
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+nav ul li a {
+    color: #666;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover,
+nav ul li a:active,
+nav ul li a.selected {
+    color: #e0e0ff;
+    border-bottom: 3px solid #c2c2fa;
+}

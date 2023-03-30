@@ -1,0 +1,12 @@
+.bottom-right {
+    position: absolute;
+    bottom: 275px;
+    right: 240px;
+    color: #b6b5b5;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.bottom-right:hover {
+    color: #e0e0ff;
+}
